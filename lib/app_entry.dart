@@ -1,3 +1,4 @@
+// app_entry.dart
 import 'package:flutter/material.dart';
 import 'package:youthspot/screens/Account/account.dart';
 import 'package:youthspot/screens/homepage.dart';
@@ -24,7 +25,7 @@ class _AppEntryState extends State<AppEntry> with WidgetsBindingObserver {
   static const List<Widget> _widgetOptions = <Widget>[
     HomePage(),
     DocumentPage(), // Resources
-    ServicesScreen(), // Services
+    //ServicesScreen(), // Services
     // Placeholder(), // Leaderboard
     Account(), // Account
   ];
@@ -143,4 +144,3 @@ class _AppEntryState extends State<AppEntry> with WidgetsBindingObserver {
     );
   }
 }
-
